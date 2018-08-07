@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="0.589" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\Java\jre1.8.0_77\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\JavaPhoton\eclipse-workspace\autotest\target"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="F:\JavaPhoton\eclipse-workspace\autotest"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files\Java\jre1.8.0_77\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefirebooter8888454408849369590.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\Program Files\Java\jre1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/Program Files/Java/jre1.8.0_77/bin/server;E:/Program Files/Java/jre1.8.0_77/bin;E:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\microsoft shared\TigerKin;E:\Program Files\Java\jdk1.8.0_77\bin;E:\Program Files\Java\jdk1.8.0_77\jre\bin;%CATLINA_HOME%\lib;%CATLINA_HOME%\bin;E:\dev\apache-maven-3.5.2\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;E:\Git\cmd;C:\Program Files\nodejs\;E:\android-sdk_r24.4.1-windows\android-sdk-windows;E:\android-sdk_r24.4.1-windows\android-sdk-windows\tools;E:\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;E:\android-sdk_r24.4.1-windows\android-sdk-windows\build-tools;E:\Anaconda3;E:\Anaconda3\Scripts;E:\Anaconda3\Library\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\Desktop;;."/>
+    <property name="surefire.test.class.path" value="F:\JavaPhoton\eclipse-workspace\autotest\target\test-classes;F:\JavaPhoton\eclipse-workspace\autotest\target\classes;e:\maven\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;e:\maven\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;e:\maven\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;e:\maven\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;e:\maven\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;e:\maven\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;e:\maven\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;e:\maven\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;e:\maven\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;e:\maven\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;e:\maven\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;e:\maven\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;e:\maven\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;e:\maven\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;e:\maven\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;e:\maven\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;e:\maven\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;e:\maven\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;e:\maven\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;e:\maven\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;e:\maven\repository\velocity\velocity\1.4\velocity-1.4.jar;e:\maven\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;e:\maven\repository\com\google\inject\guice\3.0\guice-3.0.jar;e:\maven\repository\javax\inject\javax.inject\1\javax.inject-1.jar;e:\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="F:\JavaPhoton\eclipse-workspace\autotest\target\test-classes;F:\JavaPhoton\eclipse-workspace\autotest\target\classes;e:\maven\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;e:\maven\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;e:\maven\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;e:\maven\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;e:\maven\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;e:\maven\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;e:\maven\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;e:\maven\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;e:\maven\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;e:\maven\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;e:\maven\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;e:\maven\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;e:\maven\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;e:\maven\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;e:\maven\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;e:\maven\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;e:\maven\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;e:\maven\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;e:\maven\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;e:\maven\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;e:\maven\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;e:\maven\repository\velocity\velocity\1.4\velocity-1.4.jar;e:\maven\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;e:\maven\repository\com\google\inject\guice\3.0\guice-3.0.jar;e:\maven\repository\javax\inject\javax.inject\1\javax.inject-1.jar;e:\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Program Files\Java\jre1.8.0_77"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefirebooter8888454408849369590.jar C:\Users\admin\AppData\Local\Temp\surefire9025553720021570639tmp C:\Users\admin\AppData\Local\Temp\surefire7931985010124495818tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="E:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Program Files\Java\jre1.8.0_77\lib\resources.jar;E:\Program Files\Java\jre1.8.0_77\lib\rt.jar;E:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;E:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;E:\Program Files\Java\jre1.8.0_77\lib\jce.jar;E:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;E:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;E:\Program Files\Java\jre1.8.0_77\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="e:\maven\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.jose.autotest.NewTest" name="f" time="0.065">
+    <failure message="The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.jose.autotest.NewTest.f(NewTest.java:14)
+</failure>
+  </testcase>
+</testsuite>
